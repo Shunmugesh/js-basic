@@ -46,3 +46,40 @@ let myObj = {
   }
 
   console.log(typeof heros)
+
+
+
+//  -----------------------------------------------------------------------------------
+//                                       MEMORY
+
+
+// STACK (STORES PRIMITIVE DATATYPE)       &&     HEAP (STORES NON-PRIMITIVE DATATYPE)
+
+// WHEN STACK MEMORY IS USED IT HAS THE COPY OF DECLARED VARIABLE
+
+// HEAP HAVE THE REFRENCE OF ORIGNAL VALUE 
+
+
+
+let myName = "shunmugesh";
+
+let anotherName = myName;
+anotherName = "nadar"
+
+console.log(myName);
+console.log(anotherName);
+
+
+let userOne = {
+  name : "Shunmugesh",
+  age : 23,
+  email : "shunmugesh@gamil.com"
+}
+ 
+let userTwo = userOne
+
+userTwo.email="shunmugesh5252@gmaail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
