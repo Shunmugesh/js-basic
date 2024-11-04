@@ -70,11 +70,11 @@ console.log(instructor)
 //      JSON
 
 
-{
+/*{
     "name": "Shunmugesh"
     "cousrename":"Javascript"
     "price": "free"
-}
+}*/
 
 [
     {},
