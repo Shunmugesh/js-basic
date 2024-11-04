@@ -45,9 +45,44 @@ const user= [
 // console.log(user[1].email)
 
 
-console.log(Object.keys(tinderUser))     //return the values in array
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// console.log(Object.keys(tinderUser))     //return the values in array
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
+
+
+//           OBJECT DE-STRUCTURE
+
+
+const course  = {
+    coursename : "Javascript",
+    price : "999",
+    courseInstructor : "Shunmugesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor} = course
+console.log(courseInstructor)
+
+const {courseInstructor : instructor} = course
+console.log(instructor)
+
+//      JSON
+
+
+{
+    "name": "Shunmugesh"
+    "cousrename":"Javascript"
+    "price": "free"
+}
+
+[
+    {},
+    {},
+    {}
+]
+
+
 
 
 //     node 02_basics/04_objects.js
