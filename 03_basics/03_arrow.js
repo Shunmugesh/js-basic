@@ -15,7 +15,7 @@ const user = {
 // user.welcomeMessage()
 
 // console.log(this)  // in node environment ==> if there is no context in global object then it will show empty object {}
-//  in console i.e browser there are many predifined global object it will show many object
+//  in console i.e browser there are many predifined window object it will show many object
 
 // function chai() {
 //     let username = "Shunmugesh"
