@@ -1,4 +1,4 @@
-//    for of 
+//    for of    => it is used for array  => maps can be iterate  => we cant use it for object
 
 // ["", "", ""]
 // [{}, {}, {}]
@@ -26,4 +26,15 @@ map.set('Fr', "France")
 for (const [key, value] of map) {
     // console.log(key, " = ",value)
 }
+
+// const myObj ={
+//     game1: "NFS",
+//     game2: "GTA"
+// }
+
+// for (const [key, value] of myObj) {       // This wont work on object it work only on maps()
+//     console.log(key, " = ",value)
+// }
+
+
 
